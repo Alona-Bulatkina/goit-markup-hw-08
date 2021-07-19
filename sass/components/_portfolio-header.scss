@@ -1,0 +1,12 @@
+.contakts {
+  display: flex;
+  align-items: center;
+}
+.contakts {
+  li {
+    margin-right: 50px;
+  }
+}
+.contakts .contakts__item:last-child {
+  margin-right: 0;
+}
