@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .head__nav-list {
-  display: flex;
+  display: none;
   margin-left: 93px;
 }
 .head__nav-item {
@@ -27,9 +27,9 @@
   fill: #757575;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contakts__icon:hover {
-  fill: #2196f3;
+  &:hover {
+    fill: #2196f3;
+  }
 }
 .contakts__link {
   color: #2196f3;
@@ -43,9 +43,9 @@
   position: relative;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:focus,
-  &:hover {
-    color: #e0e0e0;
+  &:hover,
+  &:focus {
+    color: #2196f3;
   }
 }
 .head__nav-link.courant::after {

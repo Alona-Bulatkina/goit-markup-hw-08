@@ -1,0 +1,26 @@
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+@media (min-width: 480px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+.menu-toggle__icon {
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+  }
+}
