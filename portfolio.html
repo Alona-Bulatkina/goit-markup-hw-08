@@ -19,12 +19,12 @@
     <header>
         <div class="container mainNav">
             <!-- List 1-->
-            <nav class="head"> <!--header__nav-->
+            <nav class="head">
                 <a href="/" class="logo">Web<span class="logoStudio">Studio</span></a>
 
-                <ul class="head__nav-list"> <!--header__nav__list-->
-                    <li class="head__nav-item"> <!--header__nav__item-->
-                        <a class="head__nav-link" href="./index.html">Студия</a> <!--header__nav__link-->
+                <ul class="head__nav-list">
+                   <li class="head__nav-item">
+                        <a class="head__nav-link" href="./index.html">Студия</a>
                     </li>
                     <li class="head__nav-item">
                         <a class="head__nav-link courant" href="./portfolio.html">Портфолио</a>
@@ -35,32 +35,94 @@
                 </ul>
             </nav>
             <!--Phone and address links-->
-            <ul class="contakts"> <!--header__nav__bl-->
-                <li><a class="contakts__link" href="mailto:info@devstudio.com"><!--header__nav__contakts-->
+            <ul class="contakts">
+                <li>
+                    <a class="contakts__link" href="mailto:info@devstudio.com">
 
-                        <svg class="contakts__icon" width="16px" height="12px"> <!--"header__nav__icon-->
-                            <use href="./images/icons.svg#icon-envelope"></use>
+                       <svg class="contakts__icon" width="16px" height="12px"> 
+                         <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
 
-                        info@devstudio.com</a></li>
+                        info@devstudio.com
+                    </a>
+                </li>
 
-                <li><a class="contakts__link" href="tel:+380961111111">
+                <li>
+                    <a class="contakts__link" href="tel:+380961111111">
 
                         <svg class="contakts__icon" width="10px" height="16px">
                             <use href="./images/icons.svg#icon-Vector"></use>
                         </svg>
 
-                        +38 096 111 11 11</a></li>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
+            
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg  class="menu-toggle__icon" width="24" height="24" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+
+            <div class="mobil-modal is-hidden">
+                <div class="mobil-container">
+                        <button class="menu-close" type="button">
+                            <svg class="menu-close__svg" width="19" height="19">
+                                <use href="./images/icons.svg#icon-CLOSE"></use>
+                            </svg>
+                        </button>
+
+                    <ul class="mobile-menu">
+                        <li class="mobile-menu__item">
+                            <a href="./index.html" class="mobile-menu__link">Студия</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="./portfolio.html" class="mobile-menu__link">Портфолио</a>
+                        </li>
+                        <li class="mobile-menu__item">
+                            <a href="" class="mobile-menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="mobil-modal__box">
+                        <ul class="mobile-contacts">
+                            <li class="mobile-contacts__item">
+                                <a href="tel:+380961111111" class="mobile-contacts__link">+380961111111</a>
+                            </li>
+                            <li class="mobile-contacts__item">
+                                <a href="mailto:info@devstudio.com" class="mobile-contacts__link-email">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    
+                        <ul class="mobile-media">
+                            <li class="mobile-media__item">
+                                <a href="" class="mobile-media__link">Instagram</a>
+                            </li>
+                            <li class="mobile-media__item">
+                                <a href="" class="mobile-media__link">Twitter</a>
+                            </li>
+                            <li class="mobile-media__item">
+                                <a href="" class="mobile-media__link">Facebook</a>
+                            </li>
+                            <li class="mobile-media__item">
+                                <a href="" class="mobile-media__link">Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </header>
     <main>
         <section class="section">
             <div class="container">
                 <!--Main content-->
-                <ul class="filter"> <!--button-->
-                    <li class="filter__item"> <!--buttonListMenu-->
-                        <button class="filter__button" type="button">Все</button> <!--listMenu-->
+                <ul class="filter"> 
+                    <li class="filter__item"> 
+                        <button class="filter__button" type="button">Все</button> 
                     </li>
                     <li class="filter__item">
                         <button class="filter__button" type="button">Веб-сайты</button>
@@ -77,24 +139,24 @@
                 </ul>
 
                 <ul class="card-set">
-                    <li class="card-set__item"> <!--card__set__item-->
-                        <a class="card-set__link"> <!--card__set__link-->
-                            <div class="card-set__box"> <!--card__set__box-->
+                    <li class="card-set__item"> 
+                        <a class="card-set__link"> 
+                            <div class="card-set__box"> 
                                 <picture>
                                     <source srcset="./images/img10_1.jpg 1x, ./images/img10_2.jpg 2x," media="(min-width: 1200px)">
                                     <source srcset="./images/img10_1.jpg 1x, ./images/img10_2.jpg 2x," media="(min-width: 760px)">
                                     <source srcset="./images/img10_1.jpg 1x, ./images/img10_2.jpg 2x," media="(min-width: 480px)">
                                     <img src="./images/img10.jpg" alt="img10" width="370" />
                                 </picture>
-                                                                 <div class="card-set__description"> <!--card__set__description-->
+                                                                 <div class="card-set__description"> 
                                     <p class="card-set__text">"Технокряк - это современная площадка распространения коронавируса. Компании
-                                        используют эту платформу для цифрового шпионажа и атак на защищенные сервера конкурентов"</p> <!--item-card-set-->
+                                        используют эту платформу для цифрового шпионажа и атак на защищенные сервера конкурентов"</p> 
                                 </div>
                             </div>
                             
-                            <div class="card-set__blok"> <!--card__set__bl-->
-                                <h3 class="card-set__title">Технокряк</h3> <!--card__set__title-->
-                                <p class="card-set__txt">Веб-сайт</p> <!--card__set__txt-->
+                            <div class="card-set__blok"> 
+                                <h3 class="card-set__title">Технокряк</h3> 
+                                <p class="card-set__txt">Веб-сайт</p> 
                             </div>
                         </a>
                     </li>
@@ -280,29 +342,29 @@
             </div>
         </section>
     </main>
-    <footer class="footer"> <!--colorOne-->
+    <footer class="footer"> 
         <div class="container footer-container">
-            <div class="footer__blok"> <!--containerLogo-->
+            <div class="footer__blok"> 
                 <a href="/" class="logo">Web<span class="logoFooter">Studio</span></a>
     
-                <ul class="footer__contakts-item"> <!--contaktsOne-->
+                <ul class="footer__contakts-item"> 
                     <li>
-                        <p class="footer__address">г. Киев, пр-т Леси Украинки, 26</p> <!--address-->
+                        <p class="footer__address">г. Киев, пр-т Леси Украинки, 26</p> 
                     </li>
                     <li>
-                        <a class="footer__contakts" href="mailto:info@example.com">info@example.com</a> <!--contakts-->
+                        <a class="footer__contakts" href="mailto:info@example.com">info@example.com</a> 
                     </li>
                     <li>
                         <a class="footer__contakts" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </div>
-            <div class="footer__link"> <!--containerJoin-->
-                <h3 class="footer__title">ПРИСОЕДИНЯЙТЕСЬ</h3> <!--join-->
-                <ul class="footer__link-blok"> <!--actions-join-->
-                    <li class="footer__link-item"> <!--join-block-->
-                        <a href="#" class="footer__link-icon"> <!--button-icon-join-->
-                            <svg class="footer__link-social" width="20" height="20"> <!--icon-join-->
+            <div class="footer__link"> 
+                <h3 class="footer__title">ПРИСОЕДИНЯЙТЕСЬ</h3> 
+                <ul class="footer__link-blok"> 
+                    <li class="footer__link-item"> 
+                        <a href="#" class="footer__link-icon"> 
+                            <svg class="footer__link-social" width="20" height="20"> 
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
@@ -348,11 +410,13 @@
         </div>
     </footer>
 
+    <script src="./modal.js"></script>
+    <script src="./mobil-modal.js"></script>
+
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
     <script defer src="js/mobile-menu.js"></script>
-    
 </body>
 
 </html>
