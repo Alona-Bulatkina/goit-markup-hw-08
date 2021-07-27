@@ -331,6 +331,7 @@ img {
 }
 
 .logoStudio {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;
@@ -663,6 +664,7 @@ img {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -689,6 +691,7 @@ img {
   line-height: 2em;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-top: 0;
   margin-bottom: 4px;
 }
 
@@ -696,9 +699,12 @@ img {
   font-size: 16px;
   line-height: 1.875em;
   color: #757575;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .feature__title {
+  font-size: 14px;
   font-weight: bold;
   line-height: 1.142em;
   text-transform: uppercase;
@@ -786,6 +792,7 @@ img {
   text-align: center;
   color: #212121;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1078,7 +1085,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer {
-    display: block;
+    display: flex;
     align-items: center;
     justify-items: center;
   }
@@ -1108,11 +1115,14 @@ img {
 
 @media screen and (min-width: 768px) and (min-width: 1200px) {
   .footer-container {
+    display: flex;
+    align-items: baseline;
     margin-right: 70px;
   }
 }
 
 .logo {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;
@@ -1120,6 +1130,7 @@ img {
 }
 
 .logoFooter {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;

@@ -5,7 +5,7 @@
   max-width: 1600px;
 
   @media screen and (min-width: 1200px) {
- display: block;
+ display:flex;
   align-items: center;
   justify-items: center;
   }
@@ -29,11 +29,14 @@
   flex-wrap: wrap;
 
   @media screen and (min-width: 1200px) {
+    display: flex;
+  align-items: baseline;
   margin-right: 70px;
   }
 }
 }
 .logo {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;
@@ -41,6 +44,7 @@
 }
 
 .logoFooter {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192em;

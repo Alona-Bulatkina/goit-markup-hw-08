@@ -5,6 +5,7 @@
   text-align: center;
   color: #212121;
   margin-bottom: 30px;
+  margin-top: 0;
   
   @media screen and (min-width: 1200px) {
     font-size: 36px;
@@ -29,9 +30,8 @@
   padding-top: 27px;
   padding-bottom: 27px;
   text-align: center;
-}
-.images__box {
-  p {
+
+    p {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
