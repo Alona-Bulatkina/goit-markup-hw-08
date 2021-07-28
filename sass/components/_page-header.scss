@@ -15,14 +15,16 @@
 }
 .head__nav-list {
   display: none;
-  margin-left: 93px;
+  /*margin-left: 93px;*/
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     display: flex;
-  }
+    margin-left: 88px;  }
 }
 .head__nav-item {
-  margin-right: 50px;
+  @media screen and (min-width: 768px) {
+margin-right: 50px;
+}
 }
 .head__nav-list .head__nav-item:last-child {
   margin-right: 0;

@@ -67,13 +67,14 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
-  width: 696px;
+  width: 360px;
   font-size: 26px;
 line-height: 42px;
 
 @media screen and (min-width: 1200px) {
   font-size: 44px;
   line-height: 1.363em;
+  width: 696px;
 }
 }
 

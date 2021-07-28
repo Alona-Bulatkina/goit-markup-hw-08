@@ -5,9 +5,9 @@
   align-items: center;
 
   @media screen and (min-width: 1200px) {
-  display: block;
-  margin-right: 93px;
-  }
+  display: flex;
+  margin-bottom: 0;
+    }
 }
 .footer__title {
   font-weight: bold;
@@ -15,8 +15,10 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
+
 }
 .footer__link-blok {
   display: flex;
