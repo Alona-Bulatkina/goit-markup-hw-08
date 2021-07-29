@@ -14,9 +14,11 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+  display: flex;
 
   @media screen and (min-width: 1200px) {
   margin-bottom: 0;
+  display: block;
   }
 }
 .footer-container {

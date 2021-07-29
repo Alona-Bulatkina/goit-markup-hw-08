@@ -1063,11 +1063,13 @@ img {
   margin-bottom: 60px;
   flex-direction: column;
   align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1200px) {
   .footer__link {
     margin-bottom: 0;
+    display: block;
   }
 }
 
@@ -1136,11 +1138,13 @@ img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+  display: flex;
 }
 
 @media screen and (min-width: 1200px) {
   .footer__blok {
     margin-bottom: 0;
+    display: block;
   }
 }
 
