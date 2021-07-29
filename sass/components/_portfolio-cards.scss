@@ -46,11 +46,8 @@
   transform: translateY(0);
 }
 .card-set {
-  /*display: flex;
-  flex-wrap: wrap;*/
-  margin-left: -30px;
-  margin-top: -30px;
   overflow: hidden;
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -61,10 +58,16 @@
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-bottom: 30px;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 60px) / 2);
+    margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 0;
   }
 
   @media screen and (min-width: 1200px) {
