@@ -21,6 +21,8 @@
     position: absolute;
     right: 25px;
     top: -21px;
+    border: none;
+    background: none;
   }
 }
 .mobile-menu__item {
@@ -78,24 +80,28 @@
 }
 .mobile-media__item {
   margin-right: 20px;
-  &:not(:last-child) {
-    margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
   }
   &::after {
     content: '';
 
-    position: absolute;
-  
+    position: relative;
     display: block;
     width: 22px;
-    height:100%;
+    height: 0;
     
-    left: 0;
-    bottom: 0;
+    left:84px;
+    bottom: 12px;
   
     border: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
-  }
+
+    &:not(:last-child) {
+      border: 1px solid rgba(33, 33, 33, 0.2);
+    }
+  }  
 }
 .mobile-media__link {
   font-weight: 500;
