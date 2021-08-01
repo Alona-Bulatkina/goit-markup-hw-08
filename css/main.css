@@ -360,7 +360,6 @@ img {
 
 .head__nav-list {
   display: none;
-  /*margin-left: 93px;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -600,7 +599,6 @@ img {
 .filter__item {
   margin-right: 8px;
   margin-top: 15px;
-  /*background: #f5f4fa;*/
   border-radius: 4px;
 }
 
@@ -1518,7 +1516,6 @@ img {
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
-  /*transform: translateX(100%);*/
 }
 
 .mobil-modal .mobil-container {
@@ -1628,6 +1625,5 @@ img {
 .mobil-modal.is-hidden {
   opacity: 0;
   pointer-events: none;
-  /*transform: translateY(0);*/
 }
 /*# sourceMappingURL=main.css.map */
