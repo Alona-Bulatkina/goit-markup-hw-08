@@ -1593,6 +1593,7 @@ img {
 }
 
 .mobile-media__item {
+  position: relative;
   margin-right: 20px;
 }
 
@@ -1602,18 +1603,18 @@ img {
 
 .mobile-media__item::after {
   content: '';
-  position: relative;
+  position: absolute;
   display: block;
   width: 22px;
   height: 0;
-  left: 84px;
+  right: -23px;
   bottom: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
 }
 
-.mobile-media__item::after:not(:last-child) {
-  border: 1px solid rgba(33, 33, 33, 0.2);
+.mobile-media__item::after:last-child {
+  border: none;
 }
 
 .mobile-media__link {
