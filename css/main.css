@@ -1594,11 +1594,11 @@ img {
   margin-right: 20px;
 }
 
-.mobile-media__item:last-child {
-  margin-right: 0;
+.mobile-media__item:not(:last-child) {
+  margin-right: 20px;
 }
 
-.mobile-media__item::after {
+.mobile-media__item:not(:last-child)::after {
   content: '';
   position: absolute;
   display: block;
@@ -1608,10 +1608,6 @@ img {
   bottom: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
-}
-
-.mobile-media__item::after:last-child {
-  border: none;
 }
 
 .mobile-media__link {
