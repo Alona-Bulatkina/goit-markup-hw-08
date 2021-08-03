@@ -924,7 +924,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .description {
+  .information {
     display: block;
   }
 }
